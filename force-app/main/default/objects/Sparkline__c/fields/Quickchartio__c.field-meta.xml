@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quickchartio__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(&quot;https://quickchart.io/chart?h=10&amp;w=100&amp;c={type:&apos;sparkline&apos;,data:{datasets:[{data:[&quot;&amp; TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month1Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month2Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month3Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month4Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month5Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month6Volume__c) &amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month7Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month8Volume__c)&amp;&quot;,&quot;&amp; TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month9Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month10Volume__c)&amp;&quot;,&quot;&amp; TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month11Volume__c)&amp;&quot;,&quot;&amp;TEXT($CustomMetadata.Sparklnes__mdt.SparklinesObject.Month12Volume__c)&amp;&quot;,&quot;&amp; &quot;]}]}}&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Quickchartio</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
